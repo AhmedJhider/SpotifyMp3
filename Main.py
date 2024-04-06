@@ -4,8 +4,8 @@ import spotipy
 import shutil
 import os
 
-CLIENT_ID = '0433e3d91ac54cd5b16f81ed87993bac'
-CLIENT_SECRET = "b17dcbc365b8495cb06622a1e224a505"
+CLIENT_ID = 'your_id'
+CLIENT_SECRET = "your_id"
 PLAYLIST_LINK = url = input("url: ")
 
 CLIENT_CREDENTIALS_MANAGER = SpotifyClientCredentials(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
